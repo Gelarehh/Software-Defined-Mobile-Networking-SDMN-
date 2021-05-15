@@ -30,6 +30,12 @@ However, the traditional cloud computing architecture may hardly meet the strict
 In mobile networks, fog computing can be utilized for the control and joint signal processing at the RAN level to serve densely deployed cells, while cloud computing can be used for control in CNs for packet processing and forwarding. The integration of fog computing and cloud computing may lead to an end-to-end (E2E) SDN solution for mobile networks.
 
 # SDMN Implementation
-The following figure illustrates the central elements of SDMN.
+The following figure illustrates the central elements of SDMN. The key enablers in the architecture consist of the MobileFlow forwarding engine (MFFE) and MobileFlow controller (MFC).
 
 ![Picture1](https://user-images.githubusercontent.com/66460485/118368135-c3e25f00-b5b6-11eb-8697-c4b094f46eee.png)
+
+Here there is a split that decouples mobile network control from all user plane elements. This way, the (new) user plane (i.e., the MFFE) becomes simple, stable, and high-performing, while the control plane (i.e., the MFC and mobile network applications) can be implemented in a logically centralized manner.
+
+Forwarding in the MFFE can be fully defined in software, while the control software can flexibly steer user traffic to different service enablers that can be distributed throughout the mobile network. This design facilitates swift network innovation through network function virtualization.
+
+In the control plane, the mobile network applications running on top of an MFC can function as an MME or the gateway control part of a physical box (indicated as GW-C), and thus can easily interact with legacy EPC network elements. 
