@@ -39,3 +39,7 @@ Here there is a split that decouples mobile network control from all user plane 
 Forwarding in the MFFE can be fully defined in software, while the control software can flexibly steer user traffic to different service enablers that can be distributed throughout the mobile network. This design facilitates swift network innovation through network function virtualization.
 
 In the control plane, the mobile network applications running on top of an MFC can function as an MME or the gateway control part of a physical box (indicated as GW-C), and thus can easily interact with legacy EPC network elements. 
+
+# Conclusion
+
+Software-Defined Mobile Network or SDMN principles make cellular networks much simpler and easier to manage, introduce new services, and inter-operate with other wireless network technologies and other operator networks. It also enables speedy and smooth mobile network evolution and differentiation. Using this technology, operators can use infrastructure resources to orchestrate on-demand the creation of various mobile network pipes based on different mobile architectures.
