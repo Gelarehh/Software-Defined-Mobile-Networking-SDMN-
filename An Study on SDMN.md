@@ -12,7 +12,7 @@ The design of SDMNs for RANs needs to address three fundamental problems.
 
 > The third problem addresses fine-grained cooperation among different entities in the network. This kind of cooperation is mainly addressed by a self-organizing network (SON) features implemented by a bottom-up approach targeting the specific problem. As fine-grained cooperation becomes a common feature in mobile networks, a top-down approach is needed to incorporate the cooperation in the native system design. Open control interfaces, programmable SON features, and proper network abstraction should be defined to implement and control different kinds of network cooperation in a software manner. It will provide flexibility and reduce the cost of implementing new network features in mobile networks.
 
-# Key Enablers
+## Key Enablers
 * **SDN**:
 The success of SDN comes from the systematic abstraction of complex networking problems on the Internet, which turns previous distributed networking problems into a logical centralized problem, where the rich theories and optimization tools well developed by computer science can be applied.
 The separation of data and control planes, open control interfaces for network devices of different vendors, and programmable control make a paradigm shift in the networking business. The same level of complexity exists in HMNs but has not been systematically studied. SDN gives rise to fundamental new thinking on the design of mobile networks. The key question is how to extract the simplicity from complex radio access problems and build principles to guide the mobile network design.
@@ -26,7 +26,7 @@ The development of SDN is tightly connected to cloud computing since cloud compu
 However, the traditional cloud computing architecture may hardly meet the strict latency requirements for fine timescale control functions in SDMNs. It is reasonable to move the logically centralized control close to the edge in mobile networks. Fog computing could fill this gap for better architecture design of SDMNs. Fog computing is a variant of the cloud computing concept that uses the computer resources and storage at the edge of a network for a substantial amount of communication, storage, control, and configuration.
 In mobile networks, fog computing can be utilized for the control and joint signal processing at the RAN level to serve densely deployed cells, while cloud computing can be used for control in CNs for packet processing and forwarding. The integration of fog computing and cloud computing may lead to an end-to-end (E2E) SDN solution for mobile networks.
 
-# SDMN Implementation
+## SDMN Implementation
 The following figure illustrates the central elements of SDMN. The key enablers in the architecture consist of the MobileFlow forwarding engine (MFFE) and MobileFlow controller (MFC).
 
 ![Picture1](https://user-images.githubusercontent.com/66460485/118368135-c3e25f00-b5b6-11eb-8697-c4b094f46eee.png)
@@ -37,6 +37,6 @@ Forwarding in the MFFE can be fully defined in software, while the control softw
 
 In the control plane, the mobile network applications running on top of an MFC can function as an MME or the gateway control part of a physical box (indicated as GW-C), and thus can easily interact with legacy EPC network elements. 
 
-# Conclusion
+## Conclusion
 
 Software-Defined Mobile Network or SDMN principles make cellular networks much simpler and easier to manage, introduce new services, and inter-operate with other wireless network technologies and other operator networks. It also enables speedy and smooth mobile network evolution and differentiation. Using this technology, operators can use infrastructure resources to orchestrate on-demand the creation of various mobile network pipes based on different mobile architectures.
