@@ -39,4 +39,4 @@ In the control plane, the mobile network applications running on top of an MFC c
 
 ## Conclusion
 
-Software-Defined Mobile Network or SDMN principles make cellular networks much simpler and easier to manage, introduce new services, and inter-operate with other wireless network technologies and other operator networks. It also enables speedy and smooth mobile network evolution and differentiation. Using this technology, operators can use infrastructure resources to orchestrate on-demand the creation of various mobile network pipes based on different mobile architectures.
+Software-Defined Mobile Network or SDMN principles make cellular networks much simpler and easier to manage, introduce new services, and inter-operate with other wireless network technologies and other operator networks. It also enables speedy and smooth mobile network evolution and differentiation. Using this technology, operators can use infrastructure resources to orchestrate the on-demand creation of various mobile network pipes based on different mobile architectures.
