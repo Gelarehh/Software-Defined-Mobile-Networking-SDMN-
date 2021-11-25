@@ -15,7 +15,7 @@ The design of SDMNs for RANs needs to address three fundamental problems.
 # Key Enablers
 * **SDN**:
 The success of SDN comes from the systematic abstraction of complex networking problems on the Internet, which turns previous distributed networking problems into a logical centralized problem, where the rich theories and optimization tools well developed by computer science can be applied.
-The separation of data and control planes, open control interfaces for network devices of different vendors, and programmable control make a disruptive paradigm shift in the networking business. The same level of complexity exists in HMNs but has not been systematically studied. SDN gives rise to fundamental new thinking on the design of mobile networks. The key question is how to extract the simplicity from complex radio access problems and build principles to guide the mobile network design.
+The separation of data and control planes, open control interfaces for network devices of different vendors, and programmable control make a paradigm shift in the networking business. The same level of complexity exists in HMNs but has not been systematically studied. SDN gives rise to fundamental new thinking on the design of mobile networks. The key question is how to extract the simplicity from complex radio access problems and build principles to guide the mobile network design.
 
 * **NFV**:
 NFV is an initiative from the telecom industry to achieve a more flexible and cost-efficient network architecture. The key idea of NFV is to virtualize network functions and implement them in industry standard high volume servers instead of proprietary hardware.
