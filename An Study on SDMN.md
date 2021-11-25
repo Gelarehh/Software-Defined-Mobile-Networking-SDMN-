@@ -31,7 +31,7 @@ The following figure illustrates the central elements of SDMN. The key enablers 
 
 ![Picture1](https://user-images.githubusercontent.com/66460485/118368135-c3e25f00-b5b6-11eb-8697-c4b094f46eee.png)
 
-Here there is a split that decouples mobile network control from all user plane elements. This way, the (new) user plane (i.e., the MFFE) becomes simple, stable, and high-performing, while the control plane (i.e., the MFC and mobile network applications) can be implemented in a logically centralized manner.
+Here, there is a split that decouples mobile network control from all user plane elements. This way, the (new) user plane (i.e., the MFFE) becomes simple, stable, and high-performing, while the control plane (i.e., the MFC and mobile network applications) can be implemented in a logically centralized manner.
 
 Forwarding in the MFFE can be fully defined in software, while the control software can flexibly steer user traffic to different service enablers that can be distributed throughout the mobile network. This design facilitates swift network innovation through network function virtualization.
 
